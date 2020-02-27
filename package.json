@@ -21,6 +21,7 @@
     "test:watch": "jest --watch --notify --notifyMode=change --coverage"
   },
   "dependencies": {
+    "auth-routes": "^0.0.1",
     "probot": "^9.5.3"
   },
   "devDependencies": {
