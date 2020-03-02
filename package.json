@@ -21,10 +21,11 @@
     "test:watch": "jest --watch --notify --notifyMode=change --coverage"
   },
   "dependencies": {
-    "auth-routes": "^0.0.1",
-    "probot": "^9.5.3"
+    "probot": "^9.5.3",
+    "node-fetch": "^2.3.0"
   },
   "devDependencies": {
+    "@types/node-fetch": "^2.1.4",
     "jest": "^24.9.0",
     "nock": "^11.4.0",
     "nodemon": "^2.0.0",
