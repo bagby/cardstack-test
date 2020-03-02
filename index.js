@@ -15,6 +15,10 @@ module.exports = app => {
     return context.github.issues.createComment(issueComment)
   })
 
+  app.on('installation.created', async context => {
+    return context.repos.createForAuthenticatedUser({ name: 'cardstack-builder-data' })
+  })
+
   // Access the Express server that Probot uses
   const expressApp = app.route()
 
