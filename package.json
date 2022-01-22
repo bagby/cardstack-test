@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "probot": "^9.5.3",
-    "node-fetch": "^2.3.0"
+    "node-fetch": "^3.1.1"
   },
   "devDependencies": {
     "@types/node-fetch": "^2.1.4",
